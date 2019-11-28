@@ -1,0 +1,169 @@
+<!-- Autor: Brayan Rincones - 1673847-3743 -->
+<!-- Autor: Julian Castaño - 1625743-3743 -->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditText
+        android:id="@+id/area"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btc"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/bt7"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/bt4"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/bt1"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/btpun"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="." />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btraiz"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="RAIZ" />
+
+            <Button
+                android:id="@+id/bt8"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/bt5"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/bt2"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/bt0"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btpot"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="EXPT" />
+
+            <Button
+                android:id="@+id/bt9"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/bt6"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/bt3"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/btatras"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="Atras" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btdivi"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="/" />
+
+            <Button
+                android:id="@+id/btmul"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="X" />
+
+            <Button
+                android:id="@+id/btres"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/btsum"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/bteq"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="=" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
